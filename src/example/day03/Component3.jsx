@@ -17,7 +17,7 @@ const TopComp = ({MyData}) => {
 function App() {
     const [MyData,setMyData] = useState({
         front : ['HTML5' , 'CSS3' , 'Javascript' , 'jQuery'],
-        back : ['Java' , 'Oracle' , 'JSP' , 'Spring Boot'],
+        back : ['Java' , 'Oracle' , 'JSP' , 'Spring Boot'], 
     });
     const addFront = () => {
         MyData.front.push('React');
