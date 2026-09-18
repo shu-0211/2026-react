@@ -34,6 +34,7 @@ export default function Component2(props){
         <input/>
         <input value={입력받은값} /> {/* value에 초기화하면 재렌더링없이 수정불가능/불변성 */}
         <input value={입력받은값2} onChange={(e) => {set입력받은값2(e.target.value);}}/>
+        
         <WriteForm writeAction={ (gu,ti) => { 
             if(gu !== '' && ti !== ''){
                 let frmValue = `검증 완료 : ${ gu } ${ ti }`

@@ -61,5 +61,34 @@ const create = createRoot(root);
 // import Component3 from "./example/day03/Component3";
 // create.render(<Component3></Component3>)
 
-import Practice2 from "./example/practice/Practice2";
-create.render(<Practice2/>)
+// import Practice2 from "./example/practice/Practice2";
+// create.render(<Practice2/>)
+
+// // [day04]
+// import { BrowserRouter } from "react-router-dom";  // 라우터 라이브러리 가져오기 
+// import App from "./example/day04/App";
+// // 2. 최초 렌더링되는 컴포넌트 앞뒤로 라우터 컴포넌트 감싼다..
+// create.render (<BrowserRouter> <App/> </BrowserRouter>)
+
+// import { BrowserRouter } from "react-router-dom";  
+// import RouterHooks from "./example/day04/RouterHooks";
+// create.render (<BrowserRouter> <RouterHooks/> </BrowserRouter>)
+
+// import Wook from "./example/practice/Practice3/Wook";
+// create.render(<Wook></Wook>)
+
+// import { BrowserRouter } from "react-router-dom";  
+// import App from "./example/practice/Practice3/App";
+// create.render (<BrowserRouter> <App/> </BrowserRouter>)
+
+// import Aaa from "./example/day05/Aaa";
+// import { BrowserRouter } from "react-router-dom";
+// create.render (
+//     <BrowserRouter>
+//         <Aaa/>          
+//     </BrowserRouter>
+// )
+
+import App from "./example/practice/pr3/App";
+import { BrowserRouter } from "react-router-dom";
+create.render ( <BrowserRouter> <App/> </BrowserRouter>)
